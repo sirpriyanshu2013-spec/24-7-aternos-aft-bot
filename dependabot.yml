@@ -1,4 +1,6 @@
-node_modules/
-npm-debug.log*
-.env
-*.log
+version: 2
+updates:
+  - package-ecosystem: "npm" 
+    directory: "/" #
+    schedule:
+      interval: "daily"
